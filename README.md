@@ -60,4 +60,12 @@ Liens directs vers :
 | **JavaScript (Vanilla)** | Validation du formulaire |
 | **Images & Assets** | Logos, bannières, visuels d’événements |
 
+## 🎥 Vidéo de démonstration
+
+Pour visualiser le résultat final du site web, vous pouvez consulter la vidéo suivante :
+
+[▶️ Cliquez ici pour regarder la démo](https://github.com/Kawthertlili/G2foss-Web-Landing-Page-Prototype/blob/main/G%C2%B2foss%20site%20web%20-%20Copie.mp4)
+
+
+
 
