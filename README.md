@@ -65,7 +65,7 @@ Liens directs vers :
 Pour visualiser le résultat final du site web, vous pouvez consulter la vidéo suivante :
 
 [▶️ Cliquez ici pour regarder la démo](https://github.com/Kawthertlili/G2foss-Web-Landing-Page-Prototype/blob/main/G%C2%B2foss%20site%20web%20-%20Copie.mp4)
-
+> Note : Si la vidéo ne se lit pas directement sur GitHub, cliquez sur « Download » pour la télécharger.
 
 
 
