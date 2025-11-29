@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>G2foss</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="main" id="top">
+        <div class="navbar">
+            <div class="menu">
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#about">About US</a></li>
+                    <li><a href="#events">Our Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="photo">
+        <img src="banner.jpg" alt="Photo">
+    </div>
+
+
+
+    <div class="about" id="about">
+        <!-- Contenu de la section About US -->
+        <h2>About US</h2>
+        <hr class="title-line">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="ggfoss.png" alt="About US Photo">
+            </div>
+            <div class="about-text">
+                <p>Thanks for your interest. Here's a quick story about us.</p>
+                <div class="line"></div> 
+                <p>G²foss is a free and open-source software club founded in 2008 that operates within the National School of Engineering of Tunis (ENIT). The club's objective is to promote the culture and philosophy of free and spread the spirit of sharing.</p>
+            </div>
+        </div>
+    </div>
+    <div class="our-events" id="events">
+        <!-- Contenu de la section Our Events -->
+        <h2>Our Events</h2>
+        <hr class="title-line">
+        
+        <!-- Premier sous-titre et photo -->
+        <div class="event-photo">
+            <h3> ¤ Enit Got The Flag</h3>
+            <img src="enit got the flag.jpg" alt="Enit Got The Flag Photo">
+            <!-- Phrase associée au premier sous-titre -->
+            <p>The event "ENIT GOT THE FLAG 2.0" is a national competition for cybersecurity enthusiasts, which will take place on April 13, 2024, at the National School of Engineers of Tunis. This "Capture The Flag" (CTF) competition returns with even more intensity for its second edition. Bright minds in cybersecurity will come together to face stimulating challenges, testing their problem-solving skills and understanding of vulnerabilities. "ENIT GOT THE FLAG 2.0" is not just a competition, but a celebration of community spirit in the field of cybersecurity.</p>
+        </div>
+        
+        <!-- Ajout d'un espacement entre les deux sections -->
+        <div style="margin-bottom: 20px;"></div>
+        
+        <!-- Deuxième sous-titre et photo -->
+        <div class="event-photo">
+            <h3> ¤ League of Coders</h3>
+            <img src="league of coders.jpg" alt="League of Coders Photo">
+            <!-- Phrase associée au deuxième sous-titre -->
+            <p>The League of Coders, a national event for programming competition, is back with full force for its third edition. Participants will have the opportunity to showcase their talent in problem-solving and compete for exceptional prizes.</p>
+        </div>
+    </div>
+    
+    
+    <div class="contact" id="contact">
+        <!-- Contenu de la section Contact -->
+        <h2>Contact</h2>
+        <hr class="title-line">
+          <form class="contact-form" onsubmit="submitForm(); return false;">
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" >
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" >
+            </div>
+            <div class="form-group">
+                <label for="number">Number</label>
+                <input type="text" id="number" name="number" >
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/company/g2foss-enit/about/">LinkedIn</a> |
+        <a href="https://www.facebook.com/G2FOSS">Facebook</a> |
+        <a href="https://www.instagram.com/g2foss/">Instagram</a> |
+        <a href="mailto:g2foss@enit.utm.tn">Email</a>
+    </div>
+    <div class="thanks-section">
+        <p>Again thanks for your interest !</p>
+    </div>
+    <div class="top-button">
+        <a href="#top">TOP</a>
+    </div>
+    <script>
+        function submitForm() {
+            // Récupérer les valeurs des champs du formulaire
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var number = document.getElementById("number").value;
+            var message = document.getElementById("message").value;
+    
+            // Vérifier si tous les champs sont remplis
+            if (name !== "" && email !== "" && number !== "" && message !== "") {
+                // Afficher une alerte de confirmation
+                alert("Your message has been successfully submitted!");
+            } else {
+                // Afficher une alerte demandant de remplir tous les champs
+                alert("Please fill in all fields before submitting.");
+            }
+        }
+    </script>
+    
+</body>
+</html>
